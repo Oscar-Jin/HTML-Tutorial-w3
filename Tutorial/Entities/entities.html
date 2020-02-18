@@ -4,8 +4,86 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Entities</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 5px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
+  <h1>HTML Entities</h1>
+
+  <p>less than: &#60;</p>
+  <p>greater than: &gt;</p>
   
+  <p>this will add some spaces &nbsp;&nbsp; to here.</p>
+  <p>non-breaking hyphen &#8209; will not break the text.</p>
+
+  <p>other interesting character entities</p>
+  <ul>
+    <li>&amp;</li>
+    <li>&quot;</li>
+    <li>&apos;</li>
+    <li>&cent;</li>
+    <li>&pound;</li>
+    <li>&yen;</li>
+    <li>&euro;</li>
+    <li>&copy;</li>
+    <li>&reg;</li>
+  </ul>
+
+  <table class="nontranslate">
+    <caption>Useful HTML Character Entities</caption>
+    <tr>
+      <th>Result</th>
+      <th>Description</th>
+      <th>Entity Name</th>
+      <th>Entity Number</th>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>non-breaking space</td>
+      <td>&amp;nbsp;</td>
+      <td>&amp;#160;</td>
+    </tr>
+    <tr>
+      <td>&lt;</td>
+      <td>less than</td>
+      <td>&amp;lt;</td>
+      <td>&amp;#60;</td>
+    </tr>
+    <tr>
+      <td>&gt;</td>
+      <td>greater than</td>
+      <td>&amp;amp;</td>
+      <td>&amp;#38;</td>
+    </tr>
+  </table>
+
+  <table class="nontranslate">
+    <caption>Diacritical Marks</caption>
+    <tr>
+      <th>Mark</th>
+      <th>Character</th>
+      <th>Construct</th>
+      <th>Result</th>
+    </tr>
+    <tr>
+      <td>&#768;</td>
+      <td>a</td>
+      <td>a&amp;#768;</td>
+      <td>a&#768;</td>
+    </tr>
+    <tr>
+      <td>&#769;</td>
+      <td>a</td>
+      <td>a&amp;#769;</td>
+      <td>a&#769;</td>
+    </tr>
+    
+  </table>
 </body>
 </html>
